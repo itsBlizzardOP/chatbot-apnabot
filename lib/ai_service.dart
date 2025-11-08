@@ -4,7 +4,7 @@ import 'package:http/http.dart' as http;
 import 'package:flutter/foundation.dart'; // <-- ADD THIS IMPORT
 
 class AiService {
-  final String _apiKey = "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";
+  final String _apiKey = "Groq_API_Key";
   final String _url = "https://api.groq.com/openai/v1/chat/completions";
 
   // Store the system prompt
